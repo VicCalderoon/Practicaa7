@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal{
+    background-image: url(../img/fondo.png); /*agregar fondo de imagen al div*/
+    background-repeat: no-repeat; /*permite o no la repeticion de la imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 0.7;/*opacidad de la imagen*/
+    -webkit-background-size: 100% 100%; /*safari 3.0*/
+    -moz-background-size: 100% 100%; /*gecko 1.9.2 (firefox 3.6)*/
+    -o-background-size: 100% 100%; /*opera 9.5*/
+    background-size: 100% 100%; /*gecko 2.0 (firefox 4.0) and other css3-compliant*/
+}   
+#encabezado{
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.titulo{
+    position: absolute;  /* Posición absoluta para no afectar los otros elementos */
+    top: 10px;           /* Ajusta la distancia desde la parte superior */
+    left: 50%;           /* Centra el título horizontalmente */
+    transform: translateX(-50%); /* Ajuste para centrarlo bien */
+    font-size: 2rem;     /* Ajusta el tamaño de la fuente */
+    color: red;    
+}
+.PiePagina{
+    width: 100%; /*ancho*/
+    height: 100px; /*alto*/
+    background: #15101b; /*color del fondo*/
+    color: white; /*color de la letra de la clase*/
+    bottom: 0; /*espacio de separacion parte inferior*/
+    position: fixed;
+    left: 0; /*alineacion de contenidos a la izquierda*/
+}
+#menu{   /*identificador*/
+    height: 400px;
+    position: relative;
+    top: 200px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{ 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: red;
+}
+#datos{
+    width: 80%;
+    background-color: #88e94f;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10x;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
